@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     gas_type_converted   R-squared:                       0.036
+Model:                            OLS   Adj. R-squared:                  0.024
+Method:                 Least Squares   F-statistic:                     2.888
+Date:                Wed, 21 Dec 2022   Prob (F-statistic):             0.0142
+Time:                        11:56:37   Log-Likelihood:                -268.36
+No. Observations:                 388   AIC:                             548.7
+Df Residuals:                     382   BIC:                             572.5
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.7282      0.222      3.274      0.001       0.291       1.165
+distance        -0.0003      0.001     -0.216      0.829      -0.003       0.002
+consume          0.0080      0.026      0.306      0.760      -0.043       0.059
+speed           -0.0031      0.002     -1.397      0.163      -0.008       0.001
+temp_inside     -0.0081      0.006     -1.273      0.204      -0.021       0.004
+temp_outside     0.0114      0.004      3.013      0.003       0.004       0.019
+==============================================================================
+Omnibus:                     2133.521   Durbin-Watson:                   0.109
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               56.091
+Skew:                          -0.327   Prob(JB):                     6.61e-13
+Kurtosis:                       1.256   Cond. No.                         501.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
